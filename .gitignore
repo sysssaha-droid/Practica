@@ -1,0 +1,24 @@
+# Залежності
+node_modules/
+
+# Артефакти збірки
+backend/build/
+frontend/.next/
+frontend/out/
+
+# Середовище та секрети
+.env
+.env.local
+.env.*.local
+
+# Логи
+*.log
+npm-debug.log*
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
